@@ -13,7 +13,8 @@ class ApartmentsController extends Controller
      */
     public function index()
     {
-        //
+        return view('apartments');
+
     }
 
     /**
@@ -23,7 +24,6 @@ class ApartmentsController extends Controller
      */
     public function create()
     {
-        return view('user.apartments');
     }
 
     /**
